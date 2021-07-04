@@ -46,6 +46,15 @@
     padding-top: 5%;
     text-align: center;
 }
+.ri{
+    display: block;
+}
+#ga{
+    display: inline;
+}
+.credit{
+    text-align: center;
+}
 
 @media (min-width:768px){
     #hell{
