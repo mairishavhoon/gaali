@@ -1,7 +1,13 @@
+@font-face{
+        font-family: gotham;
+        src: url(Gotham-Black.otf);
+}
+
 *{
     background: yellow;
     font-family: gotham;
 }
+
 #myInput{
     display: block;
     margin-right: auto;
