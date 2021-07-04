@@ -1,0 +1,60 @@
+*{
+    background: yellow;
+    font-family: gotham;
+}
+#myInput{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 8% ;
+    margin-top: 8%;
+    width: 40%;
+    height: 5%;
+    padding: 1.1%;
+    font-size: 30px;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+}
+#btn{
+    display: block;
+    margin: auto;
+    margin-right: auto;
+    margin-left: auto;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 1%;
+    background-color: black;
+    color: white;
+}
+.ra{
+    padding: 0%;
+    margin: auto;
+    text-align: center;
+    font-size: 500%;
+}
+#hell{
+    font-size: 250%;
+    padding-top: 5%;
+    text-align: center;
+}
+
+@media (min-width:768px){
+    #hell{
+        font-size: 303%;
+    }
+    #btn{
+        height: 74px;
+        font-size: 150%;
+        width: 15%;
+    }
+    .ra{
+        font-size: 1000%;
+    }
+    #myInput{
+        width: 60%;
+        height: 80px;
+    }
+}
